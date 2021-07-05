@@ -29,7 +29,7 @@ public class DealAdapter extends RecyclerView.Adapter<DealAdapter.DealViewHolder
 
 
     public DealAdapter() {
-        FirebaseUtil.openFbReference("traveldeals", null);
+//        FirebaseUtil.openFbReference("traveldeals", null);
         mFirebaseDatabase = FirebaseUtil.mFirebaseDatabase;
         mDatabaseReference = FirebaseUtil.mDatabaseReference;
         deals = FirebaseUtil.mDeals;
