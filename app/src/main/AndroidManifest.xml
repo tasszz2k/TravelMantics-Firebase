@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TravelMantics">
-        <activity android:name=".InsertActivity">
+        <activity android:name=".DealActivity">
 
         </activity>
         <activity android:name=".ListActivity">
